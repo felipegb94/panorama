@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<panoramaStudioViewer version="3.0">
+    <image projection="cubic" multilevel="true" baseindex="1">
+      <bitmap width="1475" height="1475" tilesize="480"> 
+        <front src="3D_panorama_tiles/3D_panorama_t_1f_%y_%x.jpg"/>
+        <back src="3D_panorama_tiles/3D_panorama_t_1b_%y_%x.jpg"/>
+        <left src="3D_panorama_tiles/3D_panorama_t_1l_%y_%x.jpg"/>
+        <right src="3D_panorama_tiles/3D_panorama_t_1r_%y_%x.jpg"/>
+        <up src="3D_panorama_tiles/3D_panorama_t_1u_%y_%x.jpg"/>
+        <down src="3D_panorama_tiles/3D_panorama_t_1d_%y_%x.jpg"/>
+      </bitmap>
+      <bitmap width="737" height="737" tilesize="480"> 
+        <front src="3D_panorama_tiles/3D_panorama_t_2f_%y_%x.jpg"/>
+        <back src="3D_panorama_tiles/3D_panorama_t_2b_%y_%x.jpg"/>
+        <left src="3D_panorama_tiles/3D_panorama_t_2l_%y_%x.jpg"/>
+        <right src="3D_panorama_tiles/3D_panorama_t_2r_%y_%x.jpg"/>
+        <up src="3D_panorama_tiles/3D_panorama_t_2u_%y_%x.jpg"/>
+        <down src="3D_panorama_tiles/3D_panorama_t_2d_%y_%x.jpg"/>
+      </bitmap>
+      <bitmap width="368" height="368" tilesize="480"> 
+        <front src="3D_panorama_tiles/3D_panorama_t_3f_%y_%x.jpg"/>
+        <back src="3D_panorama_tiles/3D_panorama_t_3b_%y_%x.jpg"/>
+        <left src="3D_panorama_tiles/3D_panorama_t_3l_%y_%x.jpg"/>
+        <right src="3D_panorama_tiles/3D_panorama_t_3r_%y_%x.jpg"/>
+        <up src="3D_panorama_tiles/3D_panorama_t_3u_%y_%x.jpg"/>
+        <down src="3D_panorama_tiles/3D_panorama_t_3d_%y_%x.jpg"/>
+      </bitmap>
+      <preview src="3D_panorama_tiles/3D_panorama_preview.jpg" />
+      <fallback projection="cylindrical"> 
+        <small stripe_width="166" stripe_height="507" overlap="2"> 
+          <face num="0" src="3D_panorama_tiles/3D_panorama382_s_f0.jpg"/>
+          <face num="1" src="3D_panorama_tiles/3D_panorama382_s_f1.jpg"/>
+          <face num="2" src="3D_panorama_tiles/3D_panorama382_s_f2.jpg"/>
+          <face num="3" src="3D_panorama_tiles/3D_panorama382_s_f3.jpg"/>
+          <face num="4" src="3D_panorama_tiles/3D_panorama382_s_f4.jpg"/>
+          <face num="5" src="3D_panorama_tiles/3D_panorama382_s_f5.jpg"/>
+          <face num="6" src="3D_panorama_tiles/3D_panorama382_s_f6.jpg"/>
+          <face num="7" src="3D_panorama_tiles/3D_panorama382_s_f7.jpg"/>
+          <face num="8" src="3D_panorama_tiles/3D_panorama382_s_f8.jpg"/>
+          <face num="9" src="3D_panorama_tiles/3D_panorama382_s_f9.jpg"/>
+          <face num="10" src="3D_panorama_tiles/3D_panorama382_s_f10.jpg"/>
+          <face num="11" src="3D_panorama_tiles/3D_panorama382_s_f11.jpg"/>
+          <face num="12" src="3D_panorama_tiles/3D_panorama382_s_f12.jpg"/>
+          <face num="13" src="3D_panorama_tiles/3D_panorama382_s_f13.jpg"/>
+          <face num="14" src="3D_panorama_tiles/3D_panorama382_s_f14.jpg"/>
+          <face num="15" src="3D_panorama_tiles/3D_panorama382_s_f15.jpg"/>
+          <face num="16" src="3D_panorama_tiles/3D_panorama382_s_f16.jpg"/>
+          <face num="17" src="3D_panorama_tiles/3D_panorama382_s_f17.jpg"/>
+          <face num="18" src="3D_panorama_tiles/3D_panorama382_s_f18.jpg"/>
+          <face num="19" src="3D_panorama_tiles/3D_panorama382_s_f19.jpg"/>
+          <face num="20" src="3D_panorama_tiles/3D_panorama382_s_f20.jpg"/>
+          <face num="21" src="3D_panorama_tiles/3D_panorama382_s_f21.jpg"/>
+          <face num="22" src="3D_panorama_tiles/3D_panorama382_s_f22.jpg"/>
+          <face num="23" src="3D_panorama_tiles/3D_panorama382_s_f23.jpg"/>
+        </small> 
+        <preview src="3D_panorama_tiles/3D_panorama382_fb_preview.jpg" />
+      </fallback> 
+    </image>
+    <camera minpan="0.00" maxpan="360.00" mintilt="-22.30" maxtilt="22.30" maxzoom="1.5"     />
+    <view pan="180.00" tilt="0.00" hfov="66.89" />
+        <autoplay status="off" pan="2.00" tilt="0.00" zoom="1.00" restart="5.00" />
+    <toolbar visible="true" layout="0" design="12" 
+      fullscreenbutton="true" playbutton="true" 
+      buttonwidth="24" buttonheight="20" dpidependent="true" touchzoomonly="true"
+      align="leftbottom"  xoff="4" yoff="-4" 
+    />
+    <progress type="progressBar" text="Loading: %d%" style=" color:#ffffff; font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bold; text-align:center; " filters="glow, #000000 ,1,2.0,2.0,3,1 ; glow,#000000,0.5,5.0,5.0,1,1"/>    <strings lang="en" />
+</panoramaStudioViewer>

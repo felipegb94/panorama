@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<panoramaStudioViewer version="3.0">
+    <image projection="planar" multilevel="false" baseindex="1">
+      <bitmap width="4635" height="605" tilesize="605" src="2D_panorama_tiles/2D_panorama_t_1_%y_%x.jpg" />
+      <preview src="2D_panorama_tiles/2D_panorama_preview.jpg" />
+    </image>
+    <camera minpan="0.00" maxpan="360.00" mintilt="-22.30" maxtilt="22.30" maxzoom="1.5"     />
+    <view mode="fitInWindow" />
+        <autoplay status="off" pan="2.00" tilt="0.00" zoom="1.00" restart="5.00" />
+    <toolbar visible="true" layout="0" design="12" 
+      fullscreenbutton="true" playbutton="true" 
+      buttonwidth="24" buttonheight="20" dpidependent="true" touchzoomonly="true"
+      align="leftbottom"  xoff="4" yoff="-4" 
+    />
+    <progress type="progressBar" text="Loading: %d%" style=" color:#ffffff; font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bold; text-align:center; " filters="glow, #000000 ,1,2.0,2.0,3,1 ; glow,#000000,0.5,5.0,5.0,1,1"/>    <strings lang="en" />
+</panoramaStudioViewer>
